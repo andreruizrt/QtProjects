@@ -1,0 +1,15 @@
+#include <QCoreApplication>
+#include <QTextStream>
+#include <QDebug>
+#include <QFile>
+
+int main(int argc, char *argv[])
+{
+    QCoreApplication a(argc, argv);
+    QTextStream io; // input & output ( entrada e saída )
+    QFile a;
+    
+    a.setFileName("");
+    
+    return a.exec();
+}
